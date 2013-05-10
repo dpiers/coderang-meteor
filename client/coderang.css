@@ -1,0 +1,39 @@
+/* CSS declarations go here */
+
+@font-face {
+font-family: bri;
+src: url('/fonts/bri293-webfont.eot'),
+	 url('/fonts/bri293-webfont.woff') format('woff'),
+	 url('/fonts/bri293-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+
+}
+
+body .navbar div.navbar-inner {
+	background-color: rgb(18,171,243);
+	background-image: none;
+	border: 0;
+	color: white;
+
+}
+
+body .navbar .brand {
+	font-family: bri;
+	color: white;
+	text-shadow: none;
+	margin-left: -10px;
+}
+
+body .navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+body .navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
