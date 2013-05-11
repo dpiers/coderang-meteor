@@ -14,6 +14,8 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
-    // code to run on server at startup
+     Meteor._def_template("_loginButtonsLoggedInDropdown",Handlebars.json_ast_to_func(["<div class=\"nav pull-right\">\n    <ul class=\"nav pull-right\">\n      <li id=\"login-dropdown-list\" class=\"dropdown\">\n        <a class=\"dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\">",["{",[[0,"displayName"]]],"<strong class=\"caret\"></strong></a>\n        <div class=\"dropdown-menu\">   \n          ",["#",[[0,"if"],[0,"inMessageOnlyFlow"]],["\n            ",[">","_loginButtonsMessages"],"\n          "],["\n            ",["#",[[0,"if"],[0,"inChangePasswordFlow"]],["\n              ",[">","_loginButtonsChangePassword"],"\n            "],["\n              ",[">","_loginButtonsLoggedInDropdownActions"],"\n            "]],"\n          "]],"\n        </div>\n      </li>\n    </ul>\n  </div>"]));
+     Meteor._def_template("_loginButtonsLoggedOutDropdown",Handlebars.json_ast_to_func(["<div class=\"nav pull-right\">\n    <ul class=\"nav pull-right\">\n      <li id=\"login-dropdown-list\" class=\"dropdown\">\n        <a class=\"dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\">Sign In / Up <strong class=\"caret\"></strong></a>\n        <div class=\"dropdown-menu\">   \n          ",[">","_loginButtonsLoggedOutAllServices"],"\n        </div>\n      </li>\n    </ul>\n  </div>"]));
+
   });
 }
