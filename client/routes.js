@@ -8,7 +8,9 @@ Meteor.Router.add({
     	return 'main'
     },
     '/privacy': 'privacy',
-    '/quiz': 'quiz',
+    '/interview': 'interview',
     '/404': 'notfound',
+    '/terms': 'terms',
+    '/tutor': 'tutor',
     '*': 'home', 
 });

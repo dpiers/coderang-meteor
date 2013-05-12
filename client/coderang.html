@@ -5,15 +5,13 @@
   <title>coderang</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div class="navbar-wrapper">
         <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
-            <a class="brand" href="#">coderang</a>
+            <a class="brand" href="/">coderang</a>
             {{loginButtons}}
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -29,21 +27,3 @@
       </footer>
     </div>
 </body>
-
-<template name="notfound">
-  <div class="container">
-    <h1>Not found <span>:(</span></h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
-    <p>It looks like this was the result of either:</p>
-    <ul>
-        <li>a mistyped address</li>
-        <li>an out-of-date link</li>
-    </ul>
-    <script>
-        var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
-    </script>
-    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-  </div>
-</template>
-
-
