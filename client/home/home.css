@@ -1,0 +1,20 @@
+.home .row {
+  padding-top: 20px;
+}
+
+.home .row img {
+	width: 232px;
+}
+
+.home a.divlink {
+	text-decoration:none;
+	color:black;
+}
+
+.home .span6 {
+	padding: 20px 0px;
+}
+
+.home .span6:hover {
+	background-color: #fafafa;
+}

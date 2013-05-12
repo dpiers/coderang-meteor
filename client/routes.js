@@ -7,7 +7,7 @@ Meteor.Router.add({
 
     	return 'main'
     },
-    '/profile': 'profile',
+    '/privacy': 'privacy',
     '/quiz': 'quiz',
     '/404': 'notfound',
     '*': 'home', 

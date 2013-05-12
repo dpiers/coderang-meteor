@@ -10,9 +10,9 @@ font-style: normal;
 
 }
 
-body { padding-top: 40px; }
-@media screen and (max-width: 979px) {
-    body { padding-top: 0px; }
+body .navbar-wrapper {
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 body .navbar div.navbar-inner {
@@ -258,6 +258,14 @@ body .btn-primary.active {
 }
 
 body a#forgot-password-link {
-  color: rgb(76, 141, 255);
+  color: rgb(18, 171, 243);
   cursor: pointer;
+}
+
+body a#forgot-password-link:hover {
+  color: rgb(76, 141, 255);
+}
+
+body .centered {
+  text-align: center;
 }
