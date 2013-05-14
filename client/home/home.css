@@ -1,20 +1,35 @@
 .home .row {
-  padding-top: 20px;
+  padding: 20px 0px;
 }
 
 .home .row img {
 	width: 232px;
 }
 
-.home a.divlink {
-	text-decoration:none;
-	color:black;
+.home a.details {
+	color:rgb(18, 171, 243);
+	font-size: 14pt;
 }
 
 .home .span6 {
 	padding: 20px 0px;
+
 }
 
 .home .span6:hover {
-	background-color: #fafafa;
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+
+.home .demo-btn {
+	margin: 10px;
+	padding: 14px 60px;
+	background-color: #27ae60;
+	color: white;
+	font-size: 22pt;
+}
+
+.home .demo-btn:hover {
+	background-color: #2ecc71;
+	text-decoration: none;
 }

@@ -1,24 +1,26 @@
 <template name="home">
   <div class="container home">
     <div class="row">
-      <a class="divlink" href="/tutor">
-        <div class="span6 centered">
-          <img src="/img/teach.png">
-          <h2>Tutor</h2>
-          <p>Code with a buddy</p>
-          <p><a class="btn" href="/tutor">View details »</a></p>
-        </div><!-- /.span6 -->
-  	  </a>
+      <div class="span6 centered" id="tutor">
+        <img src="/img/teach.png">
+        <h2>Tutor</h2>
+        <p>Code with a buddy</p>
+        <p><a class="details">View details »</a></p>
+      </div><!-- /.span6 -->
       
-      <a class="divlink" href="/interview">
-      	<div class="span6 centered">
-        		<img src="/img/interview.png">
-        		<h2>Interview</h2>
-        		<p>Code with a canditate</p>
-        		<p><a class="btn" href="/interview">View details »</a></p>
-      	</div><!-- /.span6 -->
-      </a>
+    	<div class="span6 centered" id="interview">
+      		<img src="/img/interview.png">
+      		<h2>Interview</h2>
+      		<p>Code with a canditate</p>
+      		<p><a class="details">View details »</a></p>
+    	</div><!-- /.span6 -->
     </div><!-- /.row -->
+
+    <div class="row">
+      <div class="span12 centered">
+        <a class="demo-btn" href="/demo">Demo</a>
+      </div>
+    </div>
 
     <!-- START THE FEATURETTES -->
 
@@ -33,6 +35,8 @@
     <hr class="featurette-divider">
 
   </div>
+
+  <script src="demo.js"></script>
 
   {{>footer}}
 
