@@ -13,10 +13,13 @@
 
 .home .span6 {
 	padding: 20px 0px;
-
 }
 
 .home .span6:hover {
+	transition: 0.5s;
+	moz-transition: 0.5s;
+	webkit-transition: 0.5s;
+	o-transition: 0.5s;
 	background-color: #f9f9f9;
 	cursor: pointer;
 }
@@ -27,6 +30,11 @@
 	background-color: #27ae60;
 	color: white;
 	font-size: 22pt;
+	cursor: pointer;
+	transition: 0.25s;
+	moz-transition: 0.25s;
+	webkit-transition: 0.25s;
+	o-transition: 0.25s;
 }
 
 .home .demo-btn:hover {

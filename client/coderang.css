@@ -1,13 +1,12 @@
 /* CSS declarations go here */
 
 @font-face {
-font-family: bri;
-src: url('/fonts/bri293-webfont.eot'),
-	 url('/fonts/bri293-webfont.woff') format('woff'),
-	 url('/fonts/bri293-webfont.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-
+  font-family: bri;
+  src: url('/fonts/bri293-webfont.eot'),
+  	   url('/fonts/bri293-webfont.woff') format('woff'),
+  	   url('/fonts/bri293-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body .navbar-wrapper {
@@ -40,6 +39,10 @@ body .navbar .nav > li > a {
   color: white;
   text-decoration: none;
   text-shadow: none;
+  transition: 0.25s;
+  moz-transition: 0.25s;
+  webkit-transition: 0.25s;
+  o-transition: 0.25s;
 }
 
 body .navbar .nav > li > a:focus,

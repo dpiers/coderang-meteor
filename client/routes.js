@@ -7,10 +7,11 @@ Meteor.Router.add({
 
     	return 'main'
     },
+    '/404': 'notfound',
     '/privacy': 'privacy',
     '/interview': 'interview',
-    '/404': 'notfound',
     '/terms': 'terms',
     '/tutor': 'tutor',
+    '/demo': 'demo',
     '*': 'home', 
 });
