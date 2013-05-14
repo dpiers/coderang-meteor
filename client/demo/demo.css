@@ -1,0 +1,286 @@
+.sidebar {
+  position: relative; 
+  float: right; 
+  height: 100%;  
+  width: 30%;
+  background: #ebebeb; /* Old browsers */
+  background: -moz-linear-gradient(left, #ebebeb 0%, #eaeaea 93%, #d9d9d9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ebebeb), color-stop(93%,#eaeaea), color-stop(100%,#d9d9d9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* IE10+ */
+  background: linear-gradient(to right, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* W3C */
+  color: #404040;
+}
+
+.left {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.right {
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	background: #ebebeb; /* Old browsers */
+	background: -moz-linear-gradient(left, #ebebeb 0%, #eaeaea 93%, #d9d9d9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ebebeb), color-stop(93%,#eaeaea), color-stop(100%,#d9d9d9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* IE10+ */
+	background: linear-gradient(to right, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* W3C */
+	color: #404040;
+}
+
+#videoChat {
+	padding: 10px 30px;
+}
+
+#chat {
+	position: relative;
+	padding-left: 10px;
+	position: relative;
+}
+
+#chat .messages {
+	width: 100%;
+	height:220px;
+	overflow: auto;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+#chat .messages div {
+	margin-bottom: 2px;
+}
+
+#chat .reply {
+	width: 270px;
+	position: absolute;
+	margin-top: 5px;
+}
+
+#chat .reply input{
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	padding: 2px;
+}
+
+.controls {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: white;
+	font-family: bri;
+	font-size: 22px;
+	z-index: 2;
+	min-width: 370px;
+}
+
+.controls #select {
+	position: relative;
+	margin-right: 4px;
+	padding: 8px 30px;
+	float: left;
+	background-color: rgb(18, 171, 243);
+	cursor: pointer;
+}
+
+
+.controls #run {
+	position: relative;
+	margin-right: 4px;
+	padding: 8px 40px;
+	float: right;
+	background-color: rgb(18, 171, 243);
+	cursor: pointer;
+}
+
+#userlist {
+  width: 100%;
+  height: 70px;
+}
+
+.firepad-userlist {
+}
+
+#firepad {
+	height: 63%;
+	width: 100%;
+}
+
+.firepad {
+  position: relative; 
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+
+.main {
+	position: relative;
+	height:100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.title {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgb(18, 171, 243);
+	color: white;
+	font-family:bri, Georgia, Times, serif;
+	font-weight:normal;
+	font-size: 28px;
+	padding: 1px 5px 4px;
+	z-index: 1000;
+}
+
+.dialog-modal {
+	display: none;
+}
+
+.ui-resizable-handle {
+  width: 100%;
+  height: 12px;
+  padding: 0 1px;
+  cursor: row-resize;
+  position: absolute;
+  background-color: 333;
+  top: 0;
+  left: 0;
+  background: url(img/handle-h.png) 50% 3px no-repeat;
+}
+
+.console {
+	position: relative;
+	height:30%;
+	bottom: 0;
+	width: 70%;
+}
+
+div.console {
+    word-wrap: break-word;
+}
+      /* First console */
+div.console {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    font-family: monospace;
+}
+
+div.console div.jquery-console-inner {
+    width: 100%;
+    height: 100%;
+    background: #333;
+    overflow: auto;
+}
+
+div.console div.jquery-console-focus span.jquery-console-cursor {
+    background: #fefefe;
+    color: #333;
+    font-weight: bold;
+}
+
+div.jquery-console-message.error {
+	color: #f1c40f;
+}
+
+div.jquery-console-message.answer {
+	color: #2ecc71;
+}
+
+div.console div.jquery-console-message-error {
+    color: #ef0505;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0.1em;
+}
+
+div.console div.jquery-console-message-value {
+    color: #1ad027;
+    font-family: monospace;
+    padding: 0.1em;
+}
+
+div.console div.jquery-console-message-type {
+    color: #52666f;
+    font-family: monospace;
+    padding: 0.1em;
+}
+
+div.console span.jquery-console-prompt-label {
+    font-weight: bold;
+}
+
+#language-modal {
+	display: none;
+}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000;}
+
+/* Container */
+#simplemodal-container {
+    height: 300px;
+    width: 600px;
+    color: #bbb;
+    background-color: #333;
+    border: 2px solid #444;
+    padding: 12px;
+}
+
+#simplemodal-container .simplemodal-data {
+}
+
+#simplemodal-container ul {
+    list-style-type: none;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+#simplemodal-container li {
+    width: 140px;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 171, 243);
+    font-family: bri;
+    font-size: 16pt;
+    padding: 28px 14px;
+    margin-bottom: 40px;
+    margin-right: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#simplemodal-container a {
+    color: #ddd;
+}
+
+#simplemodal-container a.modalCloseImg {
+    background: url(img/x.png) no-repeat;
+    width: 25px;
+    height: 29px;
+    display: inline;
+    z-index: 3200;
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    cursor: pointer;
+}
+
+#simplemodal-container h3 {
+    color: #84b8d9;
+}
+
+img.powered-by {
+	position: relative;
+	bottom: -50px;
+	left: 0px;
+	margin: auto;
+	text-align: center;
+}

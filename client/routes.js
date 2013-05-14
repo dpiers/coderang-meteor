@@ -12,6 +12,9 @@ Meteor.Router.add({
     '/interview': 'interview',
     '/terms': 'terms',
     '/tutor': 'tutor',
-    '/demo': 'demo',
+    '/demo/:docname': function(docname) {
+        Session.set('docname', docname);
+        return 'demo';
+    },
     '*': 'home', 
 });

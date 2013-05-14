@@ -1,3 +1,74 @@
+<head>
+  <!-- Include Firebase -->
+  <script src="//cdn.firebase.com/v0/firebase.js"></script>
+
+  <!-- Include CodeMirror -->
+  <script src="/codemirror/lib/codemirror.js"></script>
+  <link rel="stylesheet" href="/codemirror/lib/codemirror.css" />
+  <link rel="stylesheet" href="/codemirror/theme/neat.css">
+
+  <!-- Include CodeMirror Language Modes -->
+  <script src="/codemirror/mode/javascript/javascript.js"></script>
+  <script src="/codemirror/mode/coffeescript/coffeescript.js"></script>
+  <script src="/codemirror/mode/ruby/ruby.js"></script>
+  <script src="/codemirror/mode/python/python.js"></script>
+  <script src="/codemirror/mode/lua/lua.js"></script>
+  <script src="/codemirror/mode/scheme/scheme.js"></script>
+
+  <!-- Include Firepad -->
+  <script src="/firepad/firepad.js"></script>
+  <link rel="stylesheet" href="/firepad/firepad.css" />
+
+  <!-- Include example userlist. -->
+  <script src="/firepad/firepad-userlist.js"></script>
+  <link rel="stylesheet" href="/firepad/firepad-userlist.css" />
+
+  <!-- Include JQuery and JQConsole -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/base/jquery-ui.css"/>
+  <script src="/jquery/jquery.console.js"></script>
+  <script src="/jquery/jquery.simplemodal.js"></script>
+
+  <!-- Include JSRepl -->
+  <script src="/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+
+
+  <!-- Include TokBox -->
+  <script type="text/javascript" src="https://www.tokbox.com/webrtc/v2.0/js/TB.min.js"></script>
+  <script src="/js/videoChatTokBox.js" type="text/javascript"></script>
+</head>
+
 <template name="demo">
-	show the coderang demo app/angelhack demo
+	<div class="main">
+		<div class="left">
+		    <div id="firepad"></div>
+		    <div class="console"> </div>
+		</div>
+	
+		<div class="right">
+		  <div id="videoChat"></div>
+		  <div id="chat">
+		    <div id="userlist"></div>
+		    <div class="messages"></div>
+		    <div class="reply">
+		      <input type="text" id="messageInput" placeholder="Say something...">
+		    </div>
+		    <a href="http://firebase.com"><img class="powered-by" src="img/powered-by-firebase.png"/></a>
+		  </div>
+		</div>
+	</div>
+
+	<div id="language-modal">
+	  <ul>
+	    <li id="python">Python</li>
+	    <li id="ruby">Ruby</li>
+	    <li id="lua">Lua</li>
+	    <li id="javascript">JavaScript</li>
+	    <li id="coffeescript">CoffeeScript</li>
+	    <li id="scheme">Scheme</li>
+	  </ul>
+	</div>
+
+	{{afterLoad}}
 </template>
