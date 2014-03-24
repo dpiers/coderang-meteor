@@ -24,7 +24,7 @@ Template.home.events({
 		  return name.join('');
 		};
 
-		Meteor.Router.to('/demo/' + randomDocName());
+		window.location = '/demo/' + randomDocName();
 	},
 
 });

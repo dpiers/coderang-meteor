@@ -48,8 +48,8 @@ Template.demo.afterLoad = function() {
 
 
 
-		//var tb = new TBStart('28217822', 'videoChat');
-		//tb.startVideo();
+		var tb = new TBStart('28217822', 'videoChat');
+		tb.startVideo();
 
 		resultCallback = function(result) {
 		  if (result) {

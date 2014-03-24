@@ -14,88 +14,88 @@
 }
 
 .left {
-	width: 75%;
-	height: 100%;
-	float: left;
+  width: 75%;
+  height: 768px;
+  float: left;
 }
 
 .right {
-	width: 25%;
-	height: 100%;
-	display: inline-block;
-	background: #ebebeb; /* Old browsers */
-	background: -moz-linear-gradient(left, #ebebeb 0%, #eaeaea 93%, #d9d9d9 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ebebeb), color-stop(93%,#eaeaea), color-stop(100%,#d9d9d9)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* IE10+ */
-	background: linear-gradient(to right, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* W3C */
-	color: #404040;
+  width: 25%;
+  height: 768px;
+  display: inline-block;
+  background: #ebebeb; /* Old browsers */
+  background: -moz-linear-gradient(left, #ebebeb 0%, #eaeaea 93%, #d9d9d9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ebebeb), color-stop(93%,#eaeaea), color-stop(100%,#d9d9d9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* IE10+ */
+  background: linear-gradient(to right, #ebebeb 0%,#eaeaea 93%,#d9d9d9 100%); /* W3C */
+  color: #404040;
 }
 
 #videoChat {
-	padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 #chat {
-	position: relative;
-	padding-left: 10px;
-	position: relative;
+  position: relative;
+  padding-left: 10px;
+  position: relative;
 }
 
 #chat .messages {
-	width: 100%;
-	height:220px;
-	overflow: auto;
-	font-family: Helvetica;
-	font-size: 14px;
+  width: 100%;
+  height:220px;
+  overflow: auto;
+  font-family: Helvetica;
+  font-size: 14px;
 }
 
 #chat .messages div {
-	margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 #chat .reply {
-	width: 270px;
-	position: absolute;
-	margin-top: 5px;
+  width: 270px;
+  position: absolute;
+  margin-top: 5px;
 }
 
 #chat .reply input{
-	width: 100%;
-	height: 26px;
-	font-size: 14px;
-	padding: 2px;
+  width: 100%;
+  height: 26px;
+  font-size: 14px;
+  padding: 2px;
 }
 
 .controls {
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	color: white;
-	font-family: bri;
-	font-size: 22px;
-	z-index: 2;
-	min-width: 370px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  font-family: bri;
+  font-size: 22px;
+  z-index: 2;
+  min-width: 370px;
 }
 
 .controls #select {
-	position: relative;
-	margin-right: 4px;
-	padding: 8px 30px;
-	float: left;
-	background-color: rgb(18, 171, 243);
-	cursor: pointer;
+  position: relative;
+  margin-right: 4px;
+  padding: 8px 30px;
+  float: left;
+  background-color: rgb(18, 171, 243);
+  cursor: pointer;
 }
 
 
 .controls #run {
-	position: relative;
-	margin-right: 4px;
-	padding: 8px 40px;
-	float: right;
-	background-color: rgb(18, 171, 243);
-	cursor: pointer;
+  position: relative;
+  margin-right: 4px;
+  padding: 8px 40px;
+  float: right;
+  background-color: rgb(18, 171, 243);
+  cursor: pointer;
 }
 
 #userlist {
@@ -107,11 +107,11 @@
 }
 
 #firepad {
-	height: 63%;
-	width: 100%;
+  height: 63%;
+  width: 100%;
 }
 
-.firepad {
+div.firepad {
   position: relative; 
   float: left;
   height: 100%;
@@ -120,27 +120,27 @@
 
 
 .main {
-	position: relative;
-	height:100%;
-	width: 100%;
-	z-index: 1;
+  position: relative;
+  height:768px;
+  width: 100%;
+  z-index: 1;
 }
 
 .title {
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	background-color: rgb(18, 171, 243);
-	color: white;
-	font-family:bri, Georgia, Times, serif;
-	font-weight:normal;
-	font-size: 28px;
-	padding: 1px 5px 4px;
-	z-index: 1000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgb(18, 171, 243);
+  color: white;
+  font-family:bri, Georgia, Times, serif;
+  font-weight:normal;
+  font-size: 28px;
+  padding: 1px 5px 4px;
+  z-index: 1000;
 }
 
 .dialog-modal {
-	display: none;
+  display: none;
 }
 
 .ui-resizable-handle {
@@ -156,10 +156,10 @@
 }
 
 .console {
-	position: relative;
-	height:30%;
-	bottom: 0;
-	width: 70%;
+  position: relative;
+  height:30%;
+  bottom: 0;
+  width: 70%;
 }
 
 div.console {
@@ -187,11 +187,11 @@ div.console div.jquery-console-focus span.jquery-console-cursor {
 }
 
 div.jquery-console-message.error {
-	color: #f1c40f;
+  color: #f1c40f;
 }
 
 div.jquery-console-message.answer {
-	color: #2ecc71;
+  color: #2ecc71;
 }
 
 div.console div.jquery-console-message-error {
@@ -218,7 +218,7 @@ div.console span.jquery-console-prompt-label {
 }
 
 #language-modal {
-	display: none;
+  display: none;
 }
 
 /* Overlay */
@@ -240,7 +240,7 @@ div.console span.jquery-console-prompt-label {
 #simplemodal-container ul {
     list-style-type: none;
     margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 #simplemodal-container li {
@@ -255,6 +255,7 @@ div.console span.jquery-console-prompt-label {
     margin-right: 13px;
     display: inline-block;
     cursor: pointer;
+    float: left;
 }
 
 #simplemodal-container a {
@@ -278,9 +279,9 @@ div.console span.jquery-console-prompt-label {
 }
 
 img.powered-by {
-	position: relative;
-	bottom: -50px;
-	left: 0px;
-	margin: auto;
-	text-align: center;
+  position: relative;
+  bottom: -50px;
+  left: 0px;
+  margin: auto;
+  text-align: center;
 }
